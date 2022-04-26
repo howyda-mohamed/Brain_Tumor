@@ -1,0 +1,170 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.login{
+
+    background:linear-gradient(to top,#0e62f4a2,#0e62f449),url("../images/login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+  height: 100vh;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.customforms{
+    background-color: hsl(0, 0%, 100%);
+    padding: 139px 70px;
+    border-radius: 0px 137px 137px 0px;
+    height: 100vh;
+    
+
+}
+.customforms .text{
+    /* font-weight: 600; */
+    font-size: 22px;
+}
+.icon{
+    position: relative;
+    top: 30px;
+    display: block;  
+    width: 26px;
+    margin-left: auto;
+    z-index: 111;
+}
+
+.loginorregister {
+  width: 100%;
+   padding-bottom: 20px; 
+   display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.buttomone{
+    background-color: #E4F1FF !important;
+    box-shadow: none !important;
+    border-radius: 20px;
+   
+}
+.buttontwo{
+    background-color: #E4F1FF !important;
+    box-shadow: none !important;
+    border-radius: 20px;
+    
+}
+.buttomone .spanone{
+    width: 100%;
+    font-size: 20px;
+    box-shadow: none !important;
+    border-radius: 20px;
+
+}
+
+.buttontwo .spantwo{
+    width: 100%;
+    font-size: 20px;
+    box-shadow: none !important;
+    border-radius: 20px;
+
+}
+.loginorregister .spanone , .loginorregister .spantwo{
+    color:#E4F1FF !important;
+}
+.loginorregister i{
+    color: black;
+}
+input{    
+ margin-left: auto !important;    
+box-shadow: none !important;
+outline: none !important;
+
+}
+.submit{
+    width: 25% !important;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0E63F4 !important;
+    color: #F7F9FE !important;
+}
+
+.loginorregister .activee{
+    background-color: #0E63F4 !important; 
+    border-radius: 20px;
+    color: #E4F1FF;
+}
+.loginorregister .activee .fa-solid{
+    color: #E4F1FF;
+}
+/* .col-1check{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.col-11check{
+  margin: 0px !important;
+  padding: 0px !important;
+
+} */
+
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
+  .step {
+    display: none;
+  }
+  .step.active {
+    display: block;
+  }
+  /* .form-group {
+    /* width: 100%; */
+    /* margin-top: 20px; 
+  } */
+.form-control{
+  outline: none !important;
+ 
+
+}
+
+  button.submit-btn {
+    background-color: #0E63F4;
+    color: #fff !important;
+    padding: 8px 22px;
+   
+
+  }
+  .termcolor{
+    color: #0E63F4;
+  }
+
+  .previous-btn{
+    background-color: #0E63F4 !important;
+    color: #fff !important;
+    padding: 8px 30px !important;
+  
+
+  }
+  .buttons{
+    text-align: center;
+    margin-top: 50px;
+  }
+  .selectform{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    outline: none !important;
+    border-radius: 0.25rem;
+  }
+ 
+
+
+
+
+
+
+
+

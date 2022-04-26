@@ -1,0 +1,14 @@
+.categoriesCard .card-title {
+  color: var(--dark-blue);
+  font-weight: 600;
+}
+
+.categoriesCard {
+  height: 100%;
+}
+
+.categoriesCard .btn-primary {
+  width: 100%;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}

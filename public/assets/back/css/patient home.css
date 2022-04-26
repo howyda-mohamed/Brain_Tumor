@@ -1,0 +1,114 @@
+#categoriesHeading {
+  border-radius: 15px;
+  background-color: white;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.patient-h3 {
+  color: var(--dark-blue);
+  padding-left: 2rem;
+}
+
+@media (min-width: 1200px) {
+  #categoriesHeading .col-xl-2 {
+    width: 20%;
+  }
+}
+
+.patientCard .card {
+  color: var(--bright-blue);
+  height: 100%;
+  background-color: var(--baby-blue);
+  border: none;
+  border-radius: 14px;
+}
+
+.patientCard a:hover {
+  text-decoration: underline;
+}
+
+.patientCard .icon-background img {
+  width: 100%;
+}
+
+.patientCard a {
+  text-decoration: none;
+}
+
+.patientCard .card-text {
+  line-height: 1.2rem;
+}
+
+.patientCard .icon-background {
+  width: 80%;
+  border-radius: 8px;
+  background: hsla(218, 91%, 51%, 1);
+
+  background: linear-gradient(
+    270deg,
+    hsla(218, 91%, 51%, 0) 0%,
+    hsla(218, 91%, 51%, 0.185) 100%
+  );
+
+  background: -moz-linear-gradient(
+    270deg,
+    hsla(218, 91%, 51%, 0) 0%,
+    hsla(218, 91%, 51%, 0.185) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    270deg,
+    hsla(218, 91%, 51%, 0) 0%,
+    hsla(218, 91%, 51%, 0.185) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0E63F4", endColorstr="#0E63F4", GradientType=1 );
+}
+
+#appointments .container-fluid {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.appointment {
+  background-color: white;
+  border-radius: 15px;
+}
+
+.appointment h5 {
+  margin-bottom: 0;
+}
+
+.patient-pic {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+}
+
+.appointment .patient-name {
+  font-size: 1.25rem;
+}
+
+#appointments table {
+  border-radius: 20px;
+}
+
+.appointment h5 span {
+  color: var(--dark-grey);
+}
+
+.appointment .message-btn {
+  width: 9rem;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.appointment .modal-footer {
+  margin: auto;
+}
+
+.appointment .modal-footer button {
+  width: 10rem;
+}

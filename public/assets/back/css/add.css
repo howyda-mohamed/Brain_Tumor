@@ -1,0 +1,38 @@
+#add {
+  background-color: white;
+  height: 80vh;
+}
+
+#add button {
+  border-radius: 10px;
+}
+
+#add input[type="text"] {
+  height: 2.7rem;
+  border-color: var(--dark-grey);
+}
+
+#add #image-input {
+  color: transparent;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+#add #image-label {
+  border: 1px solid var(--dark-grey);
+  border-radius: 0.25rem;
+  height: fit-content;
+  cursor: pointer;
+}
+
+#add #add-img {
+  width: 15rem;
+}
+/* 
+#add #image-label {
+  background: url(../images/camera.png) center no-repeat;
+  height: 9rem;
+  border: 1px solid var(--dark-grey);
+  border-radius: 0.25rem;
+} */

@@ -1,0 +1,10 @@
+.mapcontainer {
+  background-color: white;
+  height: 100vh;
+  border-radius: 15px;
+}
+
+.mapcolor {
+  color: #1d2b4f;
+  font-weight: 500;
+}

@@ -1,0 +1,133 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+  :root {
+    --offcanvas-width: 270px;
+    --topNavbarHeight: 69px;
+  }
+  .sidebar-nav {
+    width: var(--offcanvas-width);
+  }
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+  }
+  .sidebar-link .right-icon {
+    display: inline-flex;
+  }
+  .sidebar-link[aria-expanded="true"] .right-icon {
+    transform: rotate(180deg);
+  }
+  @media (min-width: 992px) {
+    body {
+      overflow: auto !important;
+    }
+    main {
+      margin-left: var(--offcanvas-width);
+    }
+    /* this is to remove the backdrop */
+    .offcanvas-backdrop::before {
+      display: none;
+    }
+    .sidebar-nav {
+      -webkit-transform: none;
+      transform: none;
+      visibility: visible !important;
+      height: calc(100% - var(--topNavbarHeight));
+      top: var(--topNavbarHeight);
+    }
+  }
+  /* ///////////////////////////////////////////// */
+  .logooimg{
+    max-height: 43px;
+    border-radius: 50%;
+  }
+  /* ///////////////////////////////////////////// */
+  .navbar{
+    background-color: #0E63F4;
+  
+  }
+  .offcanvas{
+    background-color: #0E63F4;
+  }
+  @media only screen and (min-width:991px){
+    .collapse{
+      padding-left: 70px !important;
+    }
+    .collapse form{
+      margin-left: 70px !important;
+    }
+  }
+  input[type="search"]{
+    border-radius: 10px;
+  }
+  nav ul li .aalink:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+   padding-left: 20px !important;
+  }
+  
+  .navbar-nav .logout{
+    margin-top: 210px;
+  }
+  /* ///////////////////////////////////////////// */
+  /* ///////////////////////////////////////////// */
+  /* ///////////////////////////////////////////// */
+  /* ///////////////////////////////////////////// */
+  /*  */
+  .patient{
+      background-color:#F7F9FE ;
+  }
+  .patientcontent{
+    background-color:#ffffff; 
+    /* border-radius: 20px; */
+  }
+  .patientcontent:hover{
+      box-shadow: 5px 5px 10px #1D2B4F ;
+  }
+  .patientheader{
+      color:#1D2B4F ;
+  }
+  .prag1{
+      color:#CCCCCC !important;
+      font-size: 18px;
+  }
+  .prag2{
+      color: #1D2B4F;
+      font-size: 18px;
+
+  }
+  .prag3{
+    color:#8A9EAD ;
+    font-size: 18px;
+
+  }
+  .prag4{
+      color: #1D2B4F;
+      
+
+  }
+ .btnborder{
+   border-top: 1px solid #707070;
+   border-right:1px solid #707070 ;
+   font-size: 17px;
+   padding: 8px 0px;
+   box-shadow: none !important;
+ }
+ .btnborder span{
+   color:rgb(9, 241, 164);
+ }
+ .btnbordertwo {
+  border-top: 1px solid #707070;
+  font-size: 17px;
+  padding: 8px 0px;
+  box-shadow: none !important;
+
+} 
+.btnbordertwo span{
+  color: red;
+}
+.fffontsp{
+  font-size: 20px;
+}

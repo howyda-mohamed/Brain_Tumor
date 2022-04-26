@@ -1,0 +1,67 @@
+.settingsCard .card-body {
+  padding: 0;
+}
+
+.settingsCard hr {
+  background-color: black;
+}
+
+.settingsCard h6 {
+  color: var(--dark-grey);
+}
+
+.settingsCard #accountId {
+  color: var(--bright-blue);
+}
+
+/* .settingsCard #sub-img {
+  position: absolute;
+  top: 150px;
+  bottom: 0;
+  right: 200px;
+  left: auto;
+} */
+
+#profileImg {
+  width: 3rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 1.5px solid white;
+  margin-right: 0.5rem;
+}
+
+.settingsCard {
+  border-radius: 25px;
+}
+
+.settingsCard {
+  box-shadow: 0px 2px 3px 1px rgba(138, 158, 173, 0.151);
+}
+
+.settingsCard #settingsImg {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+}
+
+.imgs {
+  position: relative;
+}
+
+.imgs #sub-img {
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+
+.settingsCard input {
+  padding: 0.8rem;
+}
+
+.settingsCard label {
+  font-weight: 600;
+}
+
+#settings-page .col-md-1 {
+  width: 5%;
+}

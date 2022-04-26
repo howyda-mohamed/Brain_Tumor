@@ -1,0 +1,87 @@
+:root {
+  --bright-blue: #0e63f4;
+  --dark-blue: #1d2b4f;
+  --baby-blue: #e4f1ff;
+  --grey: #d7d7d7;
+  --dark-grey: #8a9ead;
+}
+
+#chats-page {
+  height: 100vh;
+}
+
+.chats-section {
+  background-color: white;
+}
+
+.chats-section input {
+  border-radius: 30px;
+  border: 1px solid var(--dark-grey);
+  height: 2.5rem;
+}
+
+.chats-section #big-hr:not([size]) {
+  height: 2px;
+  color: var(--dark-grey);
+}
+
+#chats h5 {
+  font-weight: 500;
+}
+
+#chats h6 {
+  font-size: 0.8rem;
+  color: var(--dark-grey);
+}
+
+#chats .time {
+  color: var(--dark-grey);
+}
+
+#chats img {
+  height: 50px;
+  border-radius: 50%;
+  width: 50px;
+}
+
+#chats .small-hr:not([size]) {
+  color: var(--dark-blue);
+  opacity: 0.5;
+}
+
+#chats .msg-num {
+  background-color: var(--bright-blue);
+  width: 23px;
+  height: 25px;
+  color: white;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.profile-section .blue-div {
+  position: relative;
+  padding: 0;
+}
+
+.profile-section #person {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+}
+
+.profile-section #profile-img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.profile-section h6 {
+  color: var(--dark-grey);
+}
+
+.profile-section hr:not([size]) {
+  color: var(--dark-grey);
+  width: 70%;
+  margin: auto;
+  height: 2px;
+}

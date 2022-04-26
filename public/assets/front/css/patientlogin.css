@@ -1,0 +1,107 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.login{
+
+    background: url("../images/logintagrobatwo.jpg"),linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.13));
+    background-repeat: no-repeat;
+    background-size: cover ;
+  height: 100vh;
+    width: 100%;
+}
+.customforms{
+    background-color: hsl(0, 0%, 100%);
+    padding: 139px 70px;
+    border-radius: 0px 137px 137px 0px;
+}
+.customforms .text{
+    font-weight: 600;
+}
+.icon{
+    position: relative;
+    top: 30px;
+    display: block;  
+    width: 26px;
+    margin-left: auto;
+    z-index: 111;
+}
+
+.loginorregister {
+  width: 100%;
+   padding-bottom: 20px; 
+   display: flex;
+  justify-content: center;
+}
+.buttomone{
+    background-color: #E4F1FF !important;
+    box-shadow: none !important;
+    border-radius: 20px;
+   
+}
+.buttontwo{
+    background-color: #E4F1FF !important;
+    box-shadow: none !important;
+    border-radius: 20px;
+    
+}
+.buttomone .spanone{
+    width: 100%;
+    font-size: 20px;
+    box-shadow: none !important;
+    border-radius: 20px;
+
+}
+
+.buttontwo .spantwo{
+    width: 100%;
+    font-size: 20px;
+    box-shadow: none !important;
+    border-radius: 20px;
+
+}
+.loginorregister .spanone , .loginorregister .spantwo{
+    color:#E4F1FF !important;
+}
+.loginorregister i{
+    color: black;
+}
+input{    
+ margin-left: auto !important;    
+box-shadow: none !important;
+outline: none !important;
+
+}
+.submit{
+    width: 25% !important;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0E63F4 !important;
+    color: #F7F9FE !important;
+}
+
+.loginorregister .active{
+    background-color: #0E63F4 !important; 
+    border-radius: 20px;
+    color: #E4F1FF;
+}
+.loginorregister .active .fa-solid{
+    color: #E4F1FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

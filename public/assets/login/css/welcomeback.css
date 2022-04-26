@@ -1,0 +1,148 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.login{
+    /* padding-bottom: 30px; */
+    background:linear-gradient(to top,#0e62f4a2,#0e62f449),url("../images/welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100vh;
+    width: 100%;
+}
+.customforms{
+    background-color: hsl(0, 0%, 100%);
+    padding: 110px 80px;
+    border-radius:  0px 137px 137px 0px;
+    height: 100vh;
+   
+
+}
+.customforms .text{
+    font-weight: 600;
+    font-size: 36px;
+}
+.icon{
+    position: relative;
+    top: 30px;
+    display: block;  
+    width: 26px;
+    margin-left: auto;
+    z-index: 111;
+}
+
+.loginorregister {
+   text-align: center;
+   padding-bottom: 20px; 
+}
+.loginorregister .spanone{
+    background-color: #E4F1FF !important;
+    height: 48px;
+    margin-left: auto; 
+    box-shadow: none !important;
+    border-radius: 25px 25px 25px 25px;
+    font-size: 20px;
+    padding: 6px 17px 2px 26px;
+   /* margin-bottom: 20px;  */
+
+}
+
+.loginorregister .spanone span,.loginorregister .spantwo span{
+    color:#E4F1FF !important;
+
+}
+.loginorregister .spantwo{
+    background-color: #E4F1FF !important;
+    height: 48px;
+    margin-left: auto; 
+    position: relative;
+    right: 5px;
+    box-shadow: none !important;
+    padding: 6px 17px 2px 26px;
+    border-radius:  25px 25px  25px 25px;
+    font-size: 20px;
+
+    
+
+}
+input{
+    
+ margin-left: auto !important;    
+box-shadow: none !important;
+outline: none !important;
+/* border-color: #fff !important; */
+}
+.submit{
+    padding: 10px 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0E63F4 !important;
+    color: #F7F9FE !important;
+    font-weight: 600;
+    font-size: 19px;
+    width: 60%;
+}
+.welor{
+   width: 70%;  
+    text-align: center;
+    /* background-color: #0E63F4; */
+    margin-left: auto;
+    margin-right: auto;
+} 
+.images{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+.images img{
+    
+    max-width: 13% !important;
+    margin-left: 15px;
+    border-radius: 50%;
+
+}
+.images .imgface{
+    max-width: 11% !important;
+
+}
+
+.welor .sone {
+    display: inline-block;
+    border-bottom: 1px solid navy;
+     width: 30%;
+    
+    
+    padding: 10px 10px;
+}
+.welor .stwo {
+    display: inline-block;
+    border-bottom: 1px solid navy;
+     width: 30%;   
+    padding: 10px 10px;
+}
+.textsign {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.textsign h5{
+    color: #8A9EAD;
+}
+.textsign a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #122F53;
+}
+
+@media only screen and (max-width:768px){
+    
+    .welor .sone {
+        width: 20%;
+        padding: 2px;
+    }
+    }  
+
+

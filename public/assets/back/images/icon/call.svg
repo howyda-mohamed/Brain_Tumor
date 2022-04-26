@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="Group_675" data-name="Group 675" transform="translate(-1532 -584)">
+    <g id="Group_670" data-name="Group 670" transform="translate(0 106)">
+      <path id="Path_2889" data-name="Path 2889" d="M22,0A22,22,0,1,1,0,22,22,22,0,0,1,22,0Z" transform="translate(1532 478)" fill="rgba(14,99,244,0.32)"/>
+      <path id="Path_2890" data-name="Path 2890" d="M19.606,0A19.606,19.606,0,1,1,0,19.606,19.606,19.606,0,0,1,19.606,0Z" transform="translate(1534.394 480.394)" fill="#0e63f4"/>
+    </g>
+    <path id="Icon_awesome-phone" data-name="Icon awesome-phone" d="M.728.963,4.8.023A.946.946,0,0,1,5.879.568L7.76,4.955a.938.938,0,0,1-.27,1.1L5.115,8a14.518,14.518,0,0,0,6.942,6.942L14,12.563a.939.939,0,0,1,1.1-.27l4.388,1.88a.951.951,0,0,1,.548,1.081l-.94,4.074a.94.94,0,0,1-.917.729A18.175,18.175,0,0,1,0,1.88.939.939,0,0,1,.728.963Z" transform="translate(1543.973 595.973)" fill="#fff"/>
+  </g>
+</svg>

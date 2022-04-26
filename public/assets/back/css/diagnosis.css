@@ -1,0 +1,78 @@
+#diagnosis-section {
+  background-color: white;
+  border-radius: 13px;
+}
+
+#diagnosis-section input[type="file"] {
+  color: transparent;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#diagnosis-section h2 {
+  font-weight: 600;
+}
+
+#diagnosis-section #drag-img {
+  width: 150px;
+}
+
+#diagnosis-section #drag-drop {
+  border: 1px dashed var(--brownish-grey);
+  border-radius: 15px;
+  background-color: var(--grey);
+  cursor: pointer;
+}
+
+#diagnosis-section .text-grey {
+  color: var(--brownish-grey);
+  font-weight: 500;
+}
+
+#diagnosis-section input[type="number"]::placeholder {
+  color: var(--brownish-grey);
+}
+
+#diagnosis-section input[type="number"] {
+  border: 1px solid var(--brownish-grey);
+}
+
+#diagnosis-section #file-section {
+  background-color: var(--grey);
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px -1px rgba(168, 171, 183, 0.85);
+  -webkit-box-shadow: 0px 2px 5px -1px rgba(168, 171, 183, 0.85);
+  -moz-box-shadow: 0px 2px 5px -1px rgba(168, 171, 183, 0.85);
+}
+
+.text-dark-grey {
+  color: #525356;
+}
+
+#diagnosis-section #file-section i {
+  color: var(--brownish-grey);
+}
+
+#file-submitted img {
+  width: 21rem;
+  height: 18rem;
+}
+
+#file-submitted p {
+  font-weight: 500;
+}
+
+#doctor-diagnosis .input {
+  border-color: var(--dark-grey);
+}
+
+#doctor-diagnosis .input::placeholder {
+  color: var(--brownish-grey);
+}
+
+#doctor-diagnosis .btn-primary {
+  background-color: transparent;
+  color: var(--brownish-grey);
+  width: 100%;
+}
