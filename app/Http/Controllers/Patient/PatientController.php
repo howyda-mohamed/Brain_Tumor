@@ -7,6 +7,7 @@ use App\Models\Appointment;
 use App\Models\Artical;
 use App\Models\Center;
 use App\Models\Foundation;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -22,6 +23,15 @@ class PatientController extends Controller
         ->where('appointments.patient_id',Auth::user()->id)
         ->get();
         return view('dashboard.patient.index',compact('indexs','appointment'));
+    }
+    public function doctor()
+    {
+        $doctors=User::all()->where('roles_id','1');
+        return view('dashboard.patient.doctor',compact('doctors'));
+    }
+    public function book_appointment()
+    {
+        return view('dashboard.patient.appointment');
     }
     public function delete_appointment($id)
     {

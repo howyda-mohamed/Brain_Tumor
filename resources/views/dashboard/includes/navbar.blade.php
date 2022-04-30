@@ -84,12 +84,10 @@
                         </li>
                     </ul>
                 </li>
-                @if (Laravel\Jetstream\Jetstream::managesProfilePhotos())
                     <li>
                         <img src="{{ Auth::user()->profile_photo_url }}" alt="no img" class="logoimg me-2">
                         <span class="text-light me-2">{{ Auth::user()->name }}</span>
                     </li>
-                @endif
                 <li class="nav-item dropdown" id="profile-dropdown">
                     <a class="nav-link dropdown-toggle pe-3" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false" style="color: white;">
@@ -109,7 +107,6 @@
                             </a>
                         </li>
                         <hr class="mx-3">
-
                         <form method="POST" action="{{ route('logout') }}" x-data>
                             @csrf
                             <a href="{{ route('logout') }}" class="dropdown-item"

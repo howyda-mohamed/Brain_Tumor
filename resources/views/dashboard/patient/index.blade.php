@@ -10,7 +10,7 @@
                 <div class="col-12 col-lg-7">
                     <div class="row flex-wrap">
                         <div class="col-6 col-sm-3 col-lg-4 col-xl-2 my-3 patientCard">
-                            <a href="{{route('show_mri')}}">
+                            <a href="{{route('patient.show_mri')}}">
                                 <div class="card text-center shadow-sm">
                                     <div
                                         class="card-body d-flex align-content-around flex-wrap justify-content-center">
@@ -25,7 +25,7 @@
                             </a>
                         </div>
                         <div class="col-6 col-sm-3 col-lg-4 col-xl-2 my-3 patientCard">
-                            <a href="{{route('chat')}}">
+                            <a href="{{route('patient.chat')}}">
                                 <div class="card text-center shadow-sm">
                                     <div
                                         class="card-body d-flex align-content-around flex-wrap justify-content-center">
@@ -40,7 +40,7 @@
                             </a>
                         </div>
                         <div class="col-6 col-sm-3 col-lg-4 col-xl-2 my-3 patientCard">
-                            <a href="{{route('artical')}}">
+                            <a href="{{route('patient.artical')}}">
                                 <div class="card text-center shadow-sm">
                                     <div
                                         class="card-body d-flex align-content-around flex-wrap justify-content-center">
@@ -55,7 +55,7 @@
                             </a>
                         </div>
                         <div class="col-6 col-sm-3 col-lg-4 col-xl-2 my-3 patientCard">
-                            <a href="{{route('foundation')}}">
+                            <a href="{{route('patient.foundation')}}">
                                 <div class="card text-center shadow-sm">
                                     <div
                                         class="card-body d-flex align-content-around flex-wrap justify-content-center">
@@ -205,7 +205,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="{{route('chat')}}" class="btn btn-primary fw-bold message-btn">Message</a>
+                    <a href="{{route('patient.chat')}}" class="btn btn-primary fw-bold message-btn">Message</a>
                 </div>
             </div>
         </div>

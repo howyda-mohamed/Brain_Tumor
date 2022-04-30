@@ -1,6 +1,5 @@
 <div>
     <div class="login">
-
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-8 col-sm-12 col-lg-6  ps-0">
@@ -57,7 +56,6 @@
                           <input  wire:model='password_confirmation' type="password" id="passtwo" class="form-control "
                           placeholder="confirm password">
                           @error('password_confirmation') <span style="color: rgb(255, 109, 109)"> {{ $message }}</span> @enderror
-
                         </div>
 
                         <div class="mt-5 text-center">

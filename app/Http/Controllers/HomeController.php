@@ -12,7 +12,8 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('site.index');
+        $doctors=User::all()->where('roles_id', '1');
+        return view('site.index',compact('doctors'));
     }
     public function register()
     {
@@ -40,4 +41,5 @@ class HomeController extends Controller
             return view('dashboard.admin.index');
         }
     }
+    
 }

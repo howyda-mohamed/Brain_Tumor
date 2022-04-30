@@ -22,10 +22,9 @@
                        @error('email') <span style="color: rgb(255, 109, 109)"> {{ $message }}</span> @enderror
 
                     <div class=" pass">
-                        <span class="icon"><i class="fa-solid fa-eye-slash" id="icon"></i></span>
+                    <br>
                         <x-jet-input id="password" class="form-control" type="password" name="password"  autocomplete="current-password"  placeholder="password"/>
                       </div>
-
                          @error('password') <span style="color: rgb(255, 109, 109)"> {{ $message }}</span> @enderror
                       <div class="mb-2 text-center">
                         <button type="submit" class="btn  mt-5 submit">{{ __('Log in') }}</button>

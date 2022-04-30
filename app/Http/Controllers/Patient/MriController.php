@@ -45,7 +45,7 @@ class MriController extends Controller
         }
         else
         {
-            return redirect()->back()->with('message','Your Code Is Not Found Please Enter Valid Code');
+            return redirect()->back()->with('msg','Your Code Is Not Found Please Enter Valid Code');
         }
 
     }
